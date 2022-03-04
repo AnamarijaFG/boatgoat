@@ -66,7 +66,7 @@ function ActivityLog() {
         className={styles.title_top}
         style={{ borderBottom: `1px solid ${borderColor}` }}
       >
-        <h5 onClick={() => setDetailsOpen(true)}>Predstojeći angažmani</h5>
+        <h5 onClick={() => setDetailsOpen(true)}>Predstojeće vožnje</h5>
       </div>
       <div className={styles.activities_holder} ref={ref}>
         <ActivityDetails
